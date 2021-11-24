@@ -1,3 +1,75 @@
 body {
     background: orange;
   }
+
+/* What the Navigation Bar looks like */
+/* Main */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 167, 179);
+  position: fixed;
+  width: 98%;
+  top: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 4em;
+  z-index: 100;
+  overflow: visible;
+}
+
+/* Link Styling */
+#navbar a {
+  color:deeppink;
+  text-decoration: none;
+  padding: 0 1.5em;
+  text-align: center;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Button Change when Mouse over */
+#navbar a:hover {
+  color: white;
+}
+
+
+/* Header Styling */
+#navbar h1 {
+  font-size: 1.75em;
+}
+
+nav {
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Project List Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover #projectlist{
+  display: block;
+  min-width: 95%;
+}
+
+#projectlist {
+  display: none;
+  position: absolute;
+  background-color: rgb(6, 130, 179);
+  border: 0.2em solid yellowgreen;
+}
+
+#projectlist a {
+  display: block;
+  padding: 0.2em 0;
+}
+
+main {
+  padding-top: 4em;
+  color: olive;
+}
+
