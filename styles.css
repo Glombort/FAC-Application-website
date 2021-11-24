@@ -2,6 +2,7 @@ body {
     background: orange;
   }
 
+
 /* What the Navigation Bar looks like */
 /* Main */
 #navbar {
@@ -9,13 +10,14 @@ body {
   justify-content: space-between;
   background-color: rgb(6, 167, 179);
   position: fixed;
-  width: 98%;
+  width: 100%;
   top: 0;
   padding-left: 1%;
   padding-right: 1%;
+  transition: 0.4s;
   height: 4em;
-  z-index: 100;
   overflow: visible;
+  z-index: 99;
 }
 
 /* Link Styling */
@@ -35,15 +37,18 @@ body {
 
 
 /* Header Styling */
-#navbar h1 {
+#nametag {
   font-size: 1.75em;
+  transition: 0.4s;
 }
 
 nav {
   padding: 1em;
   display: flex;
   justify-content: space-evenly;
+  transition: 0.4s;
 }
+
 
 /* Project List Dropdown */
 .dropdown {
@@ -68,8 +73,13 @@ nav {
   padding: 0.2em 0;
 }
 
-main {
-  padding-top: 4em;
+
+.content {
   color: olive;
 }
-
+.content header {
+  padding-top: 4em;
+}
+#about {
+  height: 2000px;
+}
