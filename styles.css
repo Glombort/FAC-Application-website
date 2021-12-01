@@ -36,16 +36,11 @@ body {
   color: white;
 }
 
-
-
 /* Header Styling */
 #navbar h1 {
   font-size: 1.75em;
   transition: 0.4s;
 }
-
-
-
 
 nav {
   padding: 1em;
@@ -54,7 +49,6 @@ nav {
   justify-content: space-evenly;
   transition: 0.4s;
 }
-
 
 /* Project List Dropdown */
 .dropdown {
@@ -78,7 +72,6 @@ nav {
   display: block;
   padding: 0.2em 0;
 }
-
 
 .content {
   color: rgb(36, 184, 48);
@@ -113,16 +106,11 @@ nav {
   margin: auto 0;
 }
 
-
 #intro-bio {
   max-width: 35%;
   padding: 0.5%;
   margin: 5em auto 5em 2.5em;
 }
-
-
-
-
 
 .contact {
   align-self: center;
