@@ -100,11 +100,19 @@ nav {
 }
 
 #intro-pic {
-  max-width: 35%;
-  padding: 0.5%;
-  margin: auto 0 auto auto;
-  
+  padding: 2.5%;
+  max-width: 60%;
+  margin-left: auto;
 }
+
+#intro-pic img {
+  max-width: 98%;
+  max-height: 98%;
+  border: 0.5em solid yellowgreen;
+  border-radius: 50%;
+  margin: auto 0;
+}
+
 
 #intro-bio {
   max-width: 35%;
@@ -112,13 +120,9 @@ nav {
   margin: 5em auto 5em 2.5em;
 }
 
-#intro-pic img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 50%;
-  border: 3px solid yellowgreen;
-  margin: auto 0;
-}
+
+
+
 
 .contact {
   align-self: center;
