@@ -144,7 +144,7 @@ nav {
 }
 
 /* General containers in #about-me */
-.about-me-inner {
+#about-me article {
   background-color: tomato;
   height: 20em;
   width: 20em;
