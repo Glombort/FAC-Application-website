@@ -143,7 +143,7 @@ nav {
   justify-content: space-evenly;
 }
 
-/* General containers in #about-me */
+/* Article containers in #about-me */
 #about-me article {
   background-color: tomato;
   height: 20em;
