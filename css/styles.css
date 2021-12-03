@@ -89,6 +89,7 @@ nav {
 /* contact at bottom of page */
 .contact {
   align-self: center;
+  margin-top: 7em;
 }
 
 .contact header {
@@ -150,7 +151,10 @@ nav {
   background-color: tomato;
   height: 20em;
   width: 20em;
+  padding:1em 2em
 }
+
+
 
 /*** projects.html ***/
 .projects {
@@ -160,3 +164,6 @@ nav {
 
 
 /*** applying.html ***/
+.applying {
+  margin: 5em;
+}
