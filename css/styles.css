@@ -112,10 +112,19 @@ nav {
   max-width: 2em;
   max-height: 2em;
   margin: auto 5% auto;
+  background-color: white;
+}
+
+.circ img{
+  border-radius: 50%;
+}
+
+.round img{
+  border-radius: 15%;
 }
 
 /* Image on hover */
-.contact-img:hover {
+.contact-img:hover{
   filter: opacity(50%)
 }
 

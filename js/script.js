@@ -49,18 +49,23 @@ var contacts = `
 <div id="contact-links">
   <ul>
     <li>
-      &#9993; <a href="mailto:george.lambert99@gmail.com">george.lambert99@gmail.com</a>
+      <div class="contact-img round">
+        <img src=".\\images\\envelope.png" alt="Mail Icon">
+      </div>
+      <div class="contact-link">
+        <a href="mailto:george.lambert99@gmail.com">Email</a>
+      </div>  
     </li>
     <li>
-      <div class="contact-img">
+      <div class="contact-img circ">
         <img src=".\\images\\linkedin.png" alt="LinkedIn Logo">
       </div>
       <div class="contact-link">
-        <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">George LinkedIn</a>
+        <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">LinkedIn</a>
       </div>
     </li>
     <li>
-      <div class="contact-img">
+      <div class="contact-img circ">
         <img src=".\\images\\github.png" alt="GitHub Logo">
       </div>
       <div class="contact-link">
