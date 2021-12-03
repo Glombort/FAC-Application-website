@@ -1,4 +1,3 @@
-
 //Nav bar shrink on scroll
 window.onscroll = function() {scrollFunction()};
 
