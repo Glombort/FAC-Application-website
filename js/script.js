@@ -47,39 +47,37 @@ var contacts = `
 <header>
   <h1>Contact</h1>
 </header>
-<div id="contact-links">
-  <ul>
-    <li>
-      <a href="mailto:george.lambert99@gmail.com">
-        <div class="contact-img round">
-          <img src=".\\Images\\envelope.png" alt="Mail Icon">
-        </div>
-        <div class="contact-link">
-          Email
-        </div>
-      </a>  
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">
-        <div class="contact-img circ">
-          <img src=".\\Images\\linkedin.png" alt="LinkedIn Logo">
-        </div>
-        <div class="contact-link">
-          LinkedIn
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/Glombort" target="_blank">
-        <div class="contact-img circ">
-          <img src=".\\Images\\github.png" alt="GitHub Logo">
-        </div>
-        <div class="contact-link">
-          GitHub
-        </div>
-      </a>
-    </li>
-  </ul>
+<div id="contact">
+  <div class="item">
+    <a href="mailto:george.lambert99@gmail.com">
+      <div class="contact-img round">
+        <img src=".\\Images\\envelope.png" alt="Mail Icon">
+      </div>
+      <div class="contact-link">
+        Email
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">
+      <div class="contact-img circ">
+        <img src=".\\Images\\linkedin.png" alt="LinkedIn Logo">
+      </div>
+      <div class="contact-link">
+        LinkedIn
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="https://github.com/Glombort" target="_blank">
+      <div class="contact-img circ">
+        <img src=".\\Images\\github.png" alt="GitHub Logo">
+      </div>
+      <div class="contact-link">
+        GitHub
+      </div>
+    </a>
+  </div>
 </div>`;
 
 document.getElementById('foot').innerHTML = contacts

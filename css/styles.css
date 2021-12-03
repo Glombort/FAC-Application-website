@@ -95,22 +95,23 @@ nav {
 }
 
 /* List */
-.contact ul {
+.item {
   font-size: x-large;
-  list-style: none;
 }
 
 /* Specific points */
 .contact a {
   display: flex;
+  justify-content: space-between;
 }
 
 /* Contact Images*/
 .contact-img img{
   max-width: 2em;
   max-height: 2em;
-  margin: auto 5% auto;
+  margin: 10%;
   background-color: white;
+
 }
 
 /* Circular contact icon */
@@ -130,7 +131,9 @@ nav {
 
 /* Contact Links */
 .contact-link {
+  width: 5em;
   margin: auto 5% auto;
+  text-align: right;
 }
 
 /*** index.html ***/
