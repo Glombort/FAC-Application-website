@@ -56,13 +56,13 @@ nav {
 }
 
 /* Dropdown hovering */
-.dropdown:hover #projectlist{
+.dropdown:hover #project-list{
   display: block;
   min-width: 95%;
 }
 
 /* Dropdown main */
-#projectlist {
+#project-list {
   display: none;
   position: absolute;
   background-color: rgb(6, 130, 179);
@@ -70,7 +70,7 @@ nav {
 }
 
 /* Dropdown links */
-#projectlist a {
+#project-list a {
   display: block;
   padding: 0.2em 0;
 }
