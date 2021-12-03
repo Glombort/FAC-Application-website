@@ -1,3 +1,5 @@
+
+//Nav bar shrink on scroll
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -14,7 +16,6 @@ function scrollFunction() {
     
   }
 }
-
 
 //Navbar same on each page
 var nav = `
@@ -51,10 +52,20 @@ var contacts = `
       &#9993; <a href="mailto:george.lambert99@gmail.com">george.lambert99@gmail.com</a>
     </li>
     <li>
-      LinkedInLogo <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">George LinkedIn</a>
+      <div class="contact-img">
+        <img src=".\\images\\linkedin.png" alt="LinkedIn Logo">
+      </div>
+      <div class="contact-link">
+        <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">George LinkedIn</a>
+      </div>
     </li>
     <li>
-      GitHubLogo <a href="https://github.com/Glombort" target="_blank">GitHub</a>
+      <div class="contact-img">
+        <img src=".\\images\\github.png" alt="GitHub Logo">
+      </div>
+      <div class="contact-link">
+        <a href="https://github.com/Glombort" target="_blank">GitHub</a>
+      </div>
     </li>
   </ul>
 </div>`;
