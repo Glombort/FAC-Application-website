@@ -23,6 +23,7 @@ var nav = `
   <h1 id="nametag"><a href=".\\index.html">George Lambert</a></h1>
 </header>
 <nav id="navbar-right">
+  <a href=".\\index.html">Home</a> |
   <a href=".\\about.html">About Me</a> |
   <div class="dropdown">
     <a href=".\\projects.html">Projects
@@ -36,7 +37,8 @@ var nav = `
       </div>
     </a> |
   </div>
-  <a href=".\\applying.html">Why I'm Applying</a>
+  <a href=".\\applying.html">Why I'm Applying</a> |
+  <a href="#foot">Contact</a>
 </nav>`;
 
 document.getElementById("navbar").innerHTML = nav;

@@ -1,5 +1,5 @@
-/* All Pages */
 
+/*** All Pages ***/
 body {
     background: orange;
     margin-left: 0%;
@@ -115,10 +115,12 @@ nav {
   background-color: white;
 }
 
+/* Circular contact icon */
 .circ img{
   border-radius: 50%;
 }
 
+/* Rounded edge contact icon */
 .round img{
   border-radius: 15%;
 }
@@ -128,24 +130,18 @@ nav {
   filter: opacity(50%)
 }
 
-/* Contack Links */
+/* Contact Links */
 .contact-link {
   margin: auto 5% auto;
 }
 
-
-
-
-
-
-/* index.html */
+/*** index.html ***/
 /* Main intro */
 #intro {
   background-color: darkorchid;
   height: 30em;
   display: flex;
   justify-content: center;
-  
 }
 
 /* Self Pic container */
