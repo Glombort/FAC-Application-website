@@ -50,7 +50,7 @@ var contacts = `
   <ul>
     <li>
       <div class="contact-img round">
-        <img src=".\\images\\envelope.png" alt="Mail Icon">
+        <img src=".\\Images\\envelope.png" alt="Mail Icon">
       </div>
       <div class="contact-link">
         <a href="mailto:george.lambert99@gmail.com">Email</a>
@@ -58,7 +58,7 @@ var contacts = `
     </li>
     <li>
       <div class="contact-img circ">
-        <img src=".\\images\\linkedin.png" alt="LinkedIn Logo">
+        <img src=".\\Images\\linkedin.png" alt="LinkedIn Logo">
       </div>
       <div class="contact-link">
         <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">LinkedIn</a>
@@ -66,7 +66,7 @@ var contacts = `
     </li>
     <li>
       <div class="contact-img circ">
-        <img src=".\\images\\github.png" alt="GitHub Logo">
+        <img src=".\\Images\\github.png" alt="GitHub Logo">
       </div>
       <div class="contact-link">
         <a href="https://github.com/Glombort" target="_blank">GitHub</a>
