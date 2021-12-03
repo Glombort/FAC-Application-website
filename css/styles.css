@@ -101,7 +101,7 @@ nav {
 }
 
 /* Specific points */
-.contact li {
+.contact a {
   display: flex;
 }
 

@@ -16,7 +16,7 @@ function scrollFunction() {
   }
 }
 
-//Navbar same on each page
+//Navbar content on each page
 var nav = `
 <header>
   <h1 id="nametag"><a href=".\\index.html">George Lambert</a></h1>
@@ -42,7 +42,7 @@ var nav = `
 
 document.getElementById("navbar").innerHTML = nav;
 
-// Contacts Section same on each page.
+// Contacts content on each page.
 var contacts = `
 <header>
   <h1>Contact</h1>
@@ -50,28 +50,34 @@ var contacts = `
 <div id="contact-links">
   <ul>
     <li>
-      <div class="contact-img round">
-        <img src=".\\Images\\envelope.png" alt="Mail Icon">
-      </div>
-      <div class="contact-link">
-        <a href="mailto:george.lambert99@gmail.com">Email</a>
-      </div>  
+      <a href="mailto:george.lambert99@gmail.com">
+        <div class="contact-img round">
+          <img src=".\\Images\\envelope.png" alt="Mail Icon">
+        </div>
+        <div class="contact-link">
+          Email
+        </div>
+      </a>  
     </li>
     <li>
-      <div class="contact-img circ">
-        <img src=".\\Images\\linkedin.png" alt="LinkedIn Logo">
-      </div>
-      <div class="contact-link">
-        <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">LinkedIn</a>
-      </div>
+      <a href="https://www.linkedin.com/in/george-lambert-986929187/" target="_blank">
+        <div class="contact-img circ">
+          <img src=".\\Images\\linkedin.png" alt="LinkedIn Logo">
+        </div>
+        <div class="contact-link">
+          LinkedIn
+        </div>
+      </a>
     </li>
     <li>
-      <div class="contact-img circ">
-        <img src=".\\Images\\github.png" alt="GitHub Logo">
-      </div>
-      <div class="contact-link">
-        <a href="https://github.com/Glombort" target="_blank">GitHub</a>
-      </div>
+      <a href="https://github.com/Glombort" target="_blank">
+        <div class="contact-img circ">
+          <img src=".\\Images\\github.png" alt="GitHub Logo">
+        </div>
+        <div class="contact-link">
+          GitHub
+        </div>
+      </a>
     </li>
   </ul>
 </div>`;
