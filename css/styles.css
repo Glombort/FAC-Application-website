@@ -146,6 +146,15 @@ nav {
   justify-content: center;
 }
 
+#intro h1 {
+  font-size: 2em;
+}
+
+#intro p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
 /* Self Pic container */
 #intro-pic {
   padding: 2.5%;
