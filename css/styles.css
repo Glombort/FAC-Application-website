@@ -5,6 +5,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+p {
+  line-height: 1.5em;
+}
+
 /* What the Navigation Bar looks like */
 #navbar {
   display: flex;
@@ -151,7 +155,6 @@ nav {
 }
 
 #intro p {
-  line-height: 1.5em;
   font-size: 1.1em;
 }
 
@@ -184,10 +187,17 @@ nav {
 
 /*** about.html ***/
 /* Main about me section */
+#about-intro {
+  width: 60em;
+  height: 20em;
+}
+
 #about-me {
   display:flex;
   justify-content: space-evenly;
 }
+
+
 
 /* Article containers in #about-me */
 #about-me article {
