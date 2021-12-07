@@ -3,11 +3,13 @@ body {
     background: rgb(169, 209, 142);
     margin-left: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0%;
   }
 
 p {
   line-height: 1.5em;
 }
+
 
 /* What the Navigation Bar looks like */
 #navbar {
@@ -23,6 +25,10 @@ p {
   height: 4em;
   overflow: visible;
   z-index: 99;
+}
+
+#menu {
+  display: none;
 }
 
 /* Navigation Links */
@@ -41,7 +47,7 @@ p {
 }
 
 /* Navigation Header */
-#navbar h1 {
+#nametag {
   font-size: 1.75em;
   transition: 0.4s;
 }
@@ -79,6 +85,38 @@ nav {
   padding: 0.2em 0;
 }
 
+@media (max-width: 600px) {
+  #menu {
+    display: inline-block;
+  }
+
+  #nametag {
+    font-size: 1em !important;
+  }
+
+  /* Dropdown main */
+  #navbar-right {
+    display: none;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: rgb(113, 175, 71);
+    border: 0.2em solid rgb(90,90,90);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 0.55em !important; 
+    width: 90%;
+  }
+
+  /* Dropdown links */
+  #navbar-right a {
+    display: block;
+    padding: 0.2em 0;
+
+  }
+  
+}
+
+
 /* main content */
 .content {
   color: rgb(90, 90, 90);
@@ -93,6 +131,7 @@ nav {
 .contact {
   align-self: center;
   margin-top: 7em;
+  
 }
 
 .contact header {
@@ -141,13 +180,24 @@ nav {
   text-align: right;
 }
 
+
+
 /*** index.html ***/
 /* Main intro */
+.index {
+  padding-right: 0%;
+  padding-left:0%;
+  padding-top: 1%;
+}
+
+
 #intro {
   background-color: rgb(255,255,204);
   height: 30em;
+  width: 100%;
   display: flex;
   justify-content: center;
+  
 }
 
 #intro h1 {
@@ -167,9 +217,8 @@ nav {
 
 /* Self pic image */
 #intro-pic img {
-  max-width: 98%;
-  max-height: 98%;
-  border: 0.5em solid yellowgreen;
+  max-height: 100%;
+  max-width:100%;
   border-radius: 50%;
   margin: auto 0;
 }
@@ -177,6 +226,7 @@ nav {
 /* Short intro container */
 #intro-bio {
   max-width: 35%;
+  max-height: 79%;
   padding: 0.5%;
   margin: 5em auto 5em 2.5em;
 }

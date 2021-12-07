@@ -16,14 +16,24 @@ function scrollFunction() {
   }
 }
 
+//Mobile Nav
+function menuToggle() {
+  if (document.getElementById("navbar-right").style.display == "") { 
+  document.getElementById("navbar-right").style.display = "flex";
+  } else {
+    document.getElementById("navbar-right").style.display = ""
+  }
+}
+
 //Navbar content on each page
 var nav = `
 <header>
   <h1 id="nametag"><a href=".\\index.html">George Lambert</a></h1>
 </header>
+<button type="button" id="menu" onclick="menuToggle()">Menu</button>
 <nav id="navbar-right">
-  <a href=".\\index.html">Home</a> |
-  <a href=".\\about.html">About Me</a> |
+  <a href=".\\index.html">Home</a>
+  <a href=".\\about.html">About Me</a>
   <div class="dropdown">
     <a href=".\\projects.html">Projects
       <div id="project-list">
@@ -34,9 +44,9 @@ var nav = `
         <a href="https://www.freecodecamp.org/glamb3rt" target="_blank">FreeCodeCamp</a>
         <a href="https://github.com/Glombort/foundersAndCoders" target="_blank">GitHub</a>
       </div>
-    </a> |
+    </a>
   </div>
-  <a href=".\\applying.html">Why I'm Applying</a> |
+  <a href=".\\applying.html">Why I'm Applying</a>
   <a href="#foot">Contact</a>
 </nav>`;
 
