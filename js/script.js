@@ -10,6 +10,7 @@ function scrollFunction() {
   } else {
     document.getElementById("navbar").style.height = "4em";
     document.getElementById("nametag").style.fontSize = "1.75em";
+    document.getElementById("nametag").style.paddingBottom = "4em";
     document.getElementById("navbar-right").style.fontSize = "1.1em";
     document.getElementById("navbar-right").style.padding = "1em 1em";
     
