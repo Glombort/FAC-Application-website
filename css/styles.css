@@ -17,7 +17,7 @@ p {
   justify-content: space-between;
   background-color: rgb(83, 128, 52);
   position: fixed;
-  width: 100%;
+  width: 99%;
   top: 0;
   padding-left: 0%;
   padding-right: 1%;
@@ -85,10 +85,13 @@ nav {
   padding: 0.2em 0;
 }
 
-@media (max-width: 1225px) {
+@media (max-width: 1250px) {
   /* Show menu button on mobile */
+  
+  
   #menu {
     display: inline-block;
+
   }
 /* Shrinking name for mobile */
   #nametag {
@@ -107,7 +110,7 @@ nav {
     text-align: center;
     margin-top: 4em;
     font-size: 0.75em !important; 
-    width: 100%;
+    width: 99%;
   }
 
   /* Dropdown links */
@@ -121,6 +124,7 @@ nav {
   .dropdown:hover #project-list{
     display: none;
     min-width: 95%;
+    max-width: 98%;
   } 
 }
 
@@ -209,7 +213,7 @@ nav {
   padding: 2vw;
   background-color: rgb(255,255,204);
   height: 30em;
-  width: 100%;
+  width: 95.9%;
   display: flex;
   justify-content: center;
   
@@ -265,8 +269,8 @@ nav {
   }
 
   #intro-pic img {
-    max-height: 100%;
-    max-width:100%;
+    max-height: 98%;
+    max-width:98%;
   }
 
   #intro-bio {
@@ -291,8 +295,8 @@ nav {
 /*** about.html ***/
 /* Main about me section */
 #about-intro {
-  width: 60em;
-  height: 20em;
+  max-width: 60em;
+  max-height: 20em;
 }
 
 #about-me {
@@ -311,6 +315,43 @@ nav {
   padding:1em 2em;
   margin: 0.5%
 }
+
+@media (max-width:1250px) {
+  #about-intro h2 {
+    margin-top:0;
+    font-size: 1em;
+  }
+  
+  #about-intro p {
+    font-size: 0.8em;
+  }
+  
+  #about-me{
+    flex-direction: column;
+    flex-basis: 100%;
+    font-size: 0.7em;
+  }  
+
+  #about-me article {
+    align-self: center;
+    min-width: 30em;
+    max-width: 50em;
+  }
+}
+
+@media (max-width:600px) {
+  #about-me{
+    flex-direction: column;
+    
+    flex-basis: 100%;
+  }
+
+  #about-me article {
+    align-self: center;
+    min-width: 15em;
+  }
+}
+
 
 /*** projects.html ***/
 .projects {
