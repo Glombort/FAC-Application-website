@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>George Lambert - Arrays and Array Methods</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href=".\styles.css">
+  </head>
+  <body>
+    <main>
+        <form action=#>
+            <div id="textbox">
+                <label for="user-input"><h1>Input numbers seperated by commas</h1></label>
+                <input type="text" id="user-input"></input>
+            </div>
+            <div id="filter-reduce">
+                <input type="radio" id=filter-method name="array-method" value="filter" checked></input>
+                <label for="filter-method" class="radio flip-card">
+                  <div class="flip-inner">
+                    <div class="flip-front">
+                      <p>Filter Method</p>
+                    </div>
+                    <div class="flip-back">
+                      <p>Filter an array leaving multiples of 2</p>
+                    </div>
+                  </div>
+                </label>
+                <input type="radio" id="reduce-method" name="array-method" value="reduce"></input>
+                <label for="reduce-method" class="radio flip-card">
+                  <div class="flip-inner">
+                    <div class="flip-front">
+                      <p>Reduce Method</p>
+                    </div>
+                    <div class="flip-back">
+                      <p>Sum all numbers in an array</p>
+                    </div>
+                  </div>
+                </label>
+            </div>
+            <div id="btn">
+                <button type="button" id="submit">Submit</button>
+            </div>
+            <div id="output"><p id="output-p"></p></div>
+        </form>
+        
+    </main>
+    <script src=".\script.js"></script>
+  </body>
+</html>
