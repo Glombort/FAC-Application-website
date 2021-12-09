@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>George Lambert - DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form action=# id="code-form">
+      <div id="textbox">
+        <label for="user-input"><h1>Input a new codename</h1></label>
+        <input type="text" id="codename"></input><br>
+        <button type="submit" id="codenameButton">Submit</button>
+      </div>
+      <div id="checker">
+        <p>
+          Make sure your codename is:
+          <ul id="checklist">
+          <li id="codenameFalseLength">At least 6 characters long</li>
+          <li id="codenameFalseCase">Have at least 1 uppercase letter and one lowercase letter</li>
+          <li id="codenameFalseNum">At least 2 numbers</li>
+        </ul></p>
+      </div>
+      <div id="output">
+        <p id="codenameTrue"></p>
+        <p id="codenameFalse"></p>
+      </div> 
+    </form>
+    
+    
+    <script src=".\script.js"></script>
+  </body>
+</html>

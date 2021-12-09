@@ -40,7 +40,7 @@ var nav = `
       <div id="project-list">
         <a href=".\\projects.html#functions">Functions</a>
         <a href=".\\projects.html#number-functions">Number Functions</a>
-        <a href=".\\projects.html#dom">DOM</a>
+        <a href=".\\prompts\\DOM\\index.html">DOM</a>
         <a href=".\\prompts\\arrays\\index.html">Array</a>
         <a href="https://www.freecodecamp.org/glamb3rt" target="_blank">FreeCodeCamp</a>
         <a href="https://github.com/Glombort/foundersAndCoders" target="_blank">GitHub</a>
