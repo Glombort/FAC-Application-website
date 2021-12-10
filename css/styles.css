@@ -312,6 +312,10 @@ nav {
 
 /*** about.html ***/
 /* Main about me section */
+.about h2, .about h3, .about h4 {
+  color: #94D2BD;
+}
+
 #about-intro {
   max-width: 60em;
   max-height: 20em;
