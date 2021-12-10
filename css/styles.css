@@ -358,6 +358,36 @@ nav {
 /*** projects.html ***/
 .projects {
   margin: 5em;
+
+}
+
+#founders-prompts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+#founders-prompts article {
+  display: flex;
+  margin:1em 0%;
+  padding:2em;
+  background-color: rgb(255,255,204);
+}
+
+.project-link, .project-description {
+  width: 50%;
+  padding: 0% 1em;
+}
+
+
+.project-link img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-link {
+  text-align: center;
 }
 
 /*** applying.html ***/
