@@ -94,7 +94,7 @@ var contacts = `
 document.getElementById('foot').innerHTML = contacts
 
 
-
+//  Allowing use of tabs on about page.
 function openAbout(evt, aboutName) {
   // Declare all variables
   var i, tabcontent, tablinks;
