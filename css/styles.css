@@ -365,41 +365,7 @@ nav {
   margin: 0.5%
 }
 
-@media (max-width:1250px) {
-  #about-intro h2 {
-    margin-top:0;
-    font-size: 1.7vw;
-  }
-  
-  #about-intro p {
-    font-size: 1.5vw;
-  }
-  
-  #about-me{
-    flex-direction: column;
-    flex-basis: 100%;
-    font-size: 1.5vw;
-  }  
 
-  #about-me article {
-    align-self: center;
-    min-width: 40em;
-    max-width: 70em;
-  }
-}
-
-@media (max-width:600px) {
-  #about-me{
-    flex-direction: column;
-    
-    flex-basis: 100%;
-  }
-
-  #about-me article {
-    align-self: center;
-    min-width: 15em;
-  }
-}
 /* Style the tab */
  .tab {
   overflow: hidden;
@@ -426,6 +392,52 @@ nav {
   display: none;
   padding: 30px 12px;
 }
+
+
+@media (max-width:1250px) {
+  #about-intro h2 {
+    margin-top:0;
+    font-size: 1em;
+  }
+  
+  #about-intro p {
+    font-size: 0.8em;
+  }
+  
+  #about-me{
+    flex-direction: column;
+    flex-basis: 100%;
+    font-size: 0.7em;
+  }  
+
+  #about-me article {
+    align-self: center;
+    min-width: 40em;
+  }
+}
+
+@media (max-width:600px) {
+  #about-me{
+    flex-direction: column;
+    flex-basis: 100%;
+    
+  }
+
+  #about-me article {
+    align-self: center;
+    min-width: 15em;
+  }
+  .tab button h2{
+    font-size: 0.8em;
+  }
+
+
+
+}
+
+
+
+
 
 /*** projects.html ***/
 .projects {
@@ -461,6 +473,11 @@ nav {
   width: 90%;
   align-self: center;
 }
+
+.projects article a{
+  color: #FFEBC7;
+}
+
 
 .project-link, .project-description {
   width: 50%;
