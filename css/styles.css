@@ -1,11 +1,13 @@
 /*** All Pages ***/
 body {
-    background: rgb(169, 209, 142);
+    background: #005F73;
     margin-left: 0%;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 0%;
   }
-
+a {
+  color: #AE2012
+}
 p {
   line-height: 1.5em;
 }
@@ -15,7 +17,7 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(83, 128, 52);
+  background-color: #0A9396;
   position: fixed;
   width: 100%;
   top: 0;
@@ -29,9 +31,9 @@ p {
 
 #menu {
   display: none;
-  background-color: rgb(83, 128, 52); /* Green */
+  background-color: #0A9396; /* Green */
   border: none;
-  color: rgb(255,255,204);
+  color: #E9D8A6;
   padding: auto 20px;
   text-align: center;
   text-decoration: none;
@@ -42,7 +44,7 @@ p {
 
 /* Navigation Links */
 #navbar a {
-  color: rgb(255,255,204);
+  color: #E9D8A6;
   text-decoration: none;
   padding: 0 1.5em;
   text-align: center;
@@ -52,7 +54,7 @@ p {
 
 /* Button Change when Mouse over */
 #navbar a:hover, #navbar a:focus {
-  color: rgb(90,90,90);
+  color: #EE9B00;
 }
 
 /* Navigation Header */
@@ -83,11 +85,11 @@ nav {
 
 /* Dropdown main */
 #project-list {
-  margin-top:14.2%;
+  margin-top:5%;
   display: none;
   position: absolute;
-  background-color: rgb(113, 175, 71);
-  border: 0.2em solid rgb(90,90,90);
+  background-color: #001219;
+  border: 0.2em solid #94D2BD;
 }
 
 /* Dropdown links */
@@ -117,8 +119,8 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     position: absolute;
-    background-color: rgb(113, 175, 71);
-    border: 0.2em solid rgb(90,90,90);
+    background-color: #001219;
+    border: 0.2em solid #94D2BD;
     text-align: center;
     margin-top:4em;
     font-size: 0.75em !important; 
@@ -150,7 +152,7 @@ nav {
 
 /* main content */
 .content {
-  color: rgb(90, 90, 90);
+  color: #CA6702;
   display: flex;
   flex-direction: column;
   padding: 2em;
@@ -226,7 +228,7 @@ nav {
 
 #intro {
   padding: 2vw;
-  background-color: rgb(255,255,204);
+  background-color: #94D2BD;
   height: 30em;
   width: 95.9%;
   display: flex;
@@ -323,7 +325,7 @@ nav {
 
 /* Article containers in #about-me */
 #about-me article {
-  background-color: rgb(255,255,204);
+  background-color: #94D2BD;
   min-height: 20em;
   min-width: 20em;
   max-width: 30em;
@@ -378,25 +380,26 @@ nav {
   font-size: 1.3vw;
 }
 
-#founders-prompts {
+.personal-work {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: rgb(68, 145, 49);
+  background-color: #001219;
   width:95%;
   padding-left: 1em;
   padding-right: 1em;
+  margin: 1em
 }
 
-#founders-prompts header {
-  font-size: 1.3vw;
+.personal-work header {
+  font-size: 1vw;
 }
 
 .projects article {
   display: flex;
   margin:1em 0%;
   padding:2em;
-  background-color: rgb(255,255,204);
+  background-color: #94D2BD;
   font-size: 0.8vw;
   width: 90%;
   align-self: center;
@@ -422,9 +425,12 @@ nav {
 }
 
 @media (max-width:500px) {
+  #founders-prompts header {
+    font-size: 2.2vw;
+  }
   .projects article {
     flex-direction: column;
-    font-size: 1.2vw;
+    font-size: 2vw;
     padding: 0%;
   }
   .project-link, .project-description {
