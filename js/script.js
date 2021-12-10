@@ -38,7 +38,6 @@ var nav = `
   <div class="dropdown">
     <a href=".\\projects.html">Projects
       <div id="project-list">
-        <a href="https://www.freecodecamp.org/glamb3rt" target="_blank">FreeCodeCamp</a>
         <a href=".\\projects.html#functions">Functions</a>
         <a href=".\\projects.html#number-functions">Number Functions</a>
         <a href=".\\projects.html#dom">DOM</a>

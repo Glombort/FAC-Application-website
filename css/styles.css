@@ -368,7 +368,7 @@ nav {
   
 }
 
-#founders-prompts article {
+.projects article {
   display: flex;
   margin:1em 0%;
   padding:2em;
