@@ -17,7 +17,7 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #005F73;
+  background-color: #004857;
   position: fixed;
   width: 100%;
   top: 0;
@@ -32,7 +32,7 @@ p {
 
 #menu {
   display: none;
-  background-color: #005F73; /* Green */
+  background-color: #004857; /* Green */
   border: none;
   color: #E9D8A6;
   padding: auto 20px;
@@ -308,12 +308,40 @@ nav {
   }
 }
 
+/*** applying.html ***/
+.applying {
+  margin: 5em auto;
+}
+
+@media (max-width:1000px) {
+  .applying {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width:380px) {
+  .applying {
+    font-size: 0.6em;
+  }
+}
 
 
 /*** about.html ***/
 /* Main about me section */
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #001219;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #07080B;
+}
+
+
 .about h2, .about h3, .about h4 {
-  color: #94D2BD;
+  color: #BBD3D3;
 }
 
 #about-intro {
@@ -321,23 +349,19 @@ nav {
   max-height: 20em;
 }
 
-#about-me {
-  display:flex;
-  justify-content: space-evenly;
+
+
+#Hobbies img {
+  max-height: 90%;
+  max-width: 90%;
 }
 
-#hobbies img {
-  max-height: 100%;
-  max-width: 100%;
-}
+
 
 /* Article containers in #about-me */
 #about-me article {
-  background-color: #005F73;
-  min-height: 20em;
-  min-width: 20em;
-  max-width: 30em;
-  padding:1em 2em;
+  background-color: #004857;
+  max-width:100%;
   margin: 0.5%
 }
 
@@ -376,7 +400,32 @@ nav {
     min-width: 15em;
   }
 }
+/* Style the tab */
+ .tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  align-content: center;
+} 
 
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  align-self: center;
+  justify-content: space-evenly;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* padding: 14px 16px; */
+  transition: 0.3s;
+}
+
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 30px 12px;
+}
 
 /*** projects.html ***/
 .projects {
@@ -392,7 +441,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #005F73;
+  background-color: #004857;
   width:95%;
   padding-left: 1em;
   padding-right: 1em;
@@ -407,7 +456,7 @@ nav {
   display: flex;
   margin:1em 0%;
   padding:2em;
-  background-color: #0A9396;
+  background-color: #06585B;
   font-size: 0.8vw;
   width: 90%;
   align-self: center;
@@ -449,7 +498,3 @@ nav {
 }
 
 
-/*** applying.html ***/
-.applying {
-  margin: 5em;
-}
