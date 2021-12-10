@@ -20,7 +20,7 @@ function scrollFunction() {
 //Mobile Nav
 function menuToggle() {
   if (document.getElementById("navbar-right").style.display == "") { 
-  document.getElementById("navbar-right").style.display = "flex";
+  document.getElementById("navbar-right").style.display = "inline-block";
   } else {
     document.getElementById("navbar-right").style.display = ""
   }
