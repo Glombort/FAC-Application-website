@@ -3,7 +3,10 @@ function usernameFunc() {
   var codename = document.getElementById('codename').value;
   if (checkLength(codename)[0] == true && checkCase(codename)[0] == true && checkNum(codename)[0] == true) {
     document.getElementById("codenameTrue").innerHTML = codename + " is a valid codename"
-    document.getElementById("codenameFalse").innerHTML = ""  
+    document.getElementById("codenameFalse").innerHTML = ""
+    document.getElementById("codenameFalseLength").innerHTML = "Your Codename is at least 6 characters long";
+    document.getElementById("codenameFalseCase").innerHTML = "You have at least one uppercase letter and one lowercase letter";
+    document.getElementById("codenameFalseNum").innerHTML = "You have at least two numbers";
   } else {
       if (checkLength(codename)[0] == false) {
         document.getElementById("codenameFalseLength").innerHTML = checkLength(codename)[1];
