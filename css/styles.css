@@ -27,6 +27,7 @@ p {
   height: 4em;
   overflow: visible;
   z-index: 99;
+  border-bottom: solid 3pt #0A9396;
 }
 
 #menu {
@@ -321,11 +322,14 @@ nav {
   justify-content: space-evenly;
 }
 
-
+#hobbies img {
+  max-height: 100%;
+  max-width: 100%;
+}
 
 /* Article containers in #about-me */
 #about-me article {
-  background-color: #0A9396;
+  background-color: #005F73;
   min-height: 20em;
   min-width: 20em;
   max-width: 30em;

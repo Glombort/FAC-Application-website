@@ -34,6 +34,7 @@ var nav = `
 <button type="button" id="menu" onclick="menuToggle()">Menu</button>
 <nav id="navbar-right">
   <a href=".\\index.html">Home</a>
+  <a href=".\\applying.html">Why I'm Applying</a>
   <a href=".\\about.html">About Me</a>
   <div class="dropdown">
     <a href=".\\projects.html">Projects
@@ -46,7 +47,7 @@ var nav = `
       </div>
     </a>
   </div>
-  <a href=".\\applying.html">Why I'm Applying</a>
+  
   <a href="#foot">Contact</a>
 </nav>`;
 
