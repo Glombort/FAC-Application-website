@@ -68,11 +68,13 @@ nav {
 /* Dropdown hovering */
 .dropdown:hover #project-list, .dropdown:focus #project-list {
   display: block;
+  
   min-width: 95%;
 }
 
 /* Dropdown main */
 #project-list {
+  margin-top:14.2%;
   display: none;
   position: absolute;
   background-color: rgb(113, 175, 71);
